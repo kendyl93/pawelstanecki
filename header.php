@@ -18,5 +18,3 @@
 </head>
 
 <body>
-
-<?php if (!is_front_page() or basename(get_page_template()) != 'page-home.php') get_template_part( 'elements/content', 'banner' ); ?>
