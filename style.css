@@ -1,0 +1,106 @@
+﻿/*
+Theme Name: Pawel Stanecki
+Theme URI: http://www.pawelstanecki.pl/
+Description: Theme for personal blog
+Version: 1.0
+Author: Pawel Stanecki
+Author URI: http://www.pawelstanecki.pl/
+*/
+/*------------------------------------*\
+    GENERAL SETTINGS
+\*------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600 !important;
+}
+
+#about .profile-pic {
+  background-position: top center;
+  background-image: url('../images/pawelstanecki-img.png');
+  height: 250px;
+  width: 201px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  #about .profile-pic {
+    display: block;
+    margin: 15px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  #about h2,
+  #about p {
+    text-align: center;
+  }
+}
+#about .normal_link {
+  color: #7a7a7a;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#about .normal_link:hover {
+  color: #fff;
+}
+#resume .info_wrapper {
+  padding-bottom: 15px;
+}
+#resume .info_wrapper .info {
+  margin: 0 5px;
+}
+
+#resume .lang {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+#contact {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#contact p {
+  color: #636363;
+}
+#contact h1:before {
+  font-size: 56px;
+  line-height: 30px;
+}
+.logo {
+  width: 300px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+ul#nav li.current a {
+  color: #58a4b0;
+}
+.bar-expand {
+  background: #58a4b0;
+}
+#about a,
+#about a:visited {
+  color: #58a4b0;
+}
+#contact a,
+#contact a:visited a,
+#contact a:before {
+  color: #11abb0 !important;
+}
+footer ul {
+  margin: 0;
+  padding: 15px 0;
+  text-align: center;
+}
+footer ul li {
+  margin-bottom: 0;
+}
+#contact .social-links li {
+  margin-left: 20px;
+}
