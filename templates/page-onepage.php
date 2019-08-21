@@ -51,214 +51,24 @@ Template Name: Onepage
 
 <!-- About Section
 ================================================== -->
-<section id="about">
 
-<div class="row">
-
-   <div class="three columns">
-      <div class="profile-pic">
-
-      </div>
-   </div>
-
-   <div class="nine columns main-col">
-
-      <h2>O mnie</h2>
-
-      <p>
-
-Jestem absolwentem Politechniki Wrocławskiej.
-Moją pasją jest programowanie dlatego staram się cały czas rozwijać i być na bieżąco z nowymi technologiami. Aktualnie zajmuję się przekształcaniem projektów graficznych w semantyczny kod HTML. Dokładam wszelkich starań aby strona była responsywna, ale i przyjemna dla oka. W codziennej pracy mam do czynienia z takimi technologiami, jak:
-JavaScript, JQuery, PHP, HTML, CSS/LESS, Bootstrap.
-
-Staram się powiększac swoją wiedze, a dowodem tego mogą byc przedstawione niżej <a class="smoothscroll" href="#portfolio">projekty</a> wykonane w takich technologiach jak <strong>ReactJS</strong> oraz <strong>Redux</strong>.
-      </p>
-
-      <div class="row">
-
-         <div class="columns contact-details">
-
-            <h2>Kontakt</h2>
-            <p class="address">
-                     <span>Paweł Stanecki</span><br>
-                     <span>ul. Legnicka 49f/3f,<br>
-                           54-202, Wrocław
-               </span><br>
-                     <span><a class="normal_link" href="tel:663133755">tel. 663 133 755</a></span><br>
-         <span><a class="normal_link" href="mailto:p.stanecki93@gmail.com">e-mail: p.stanecki93@gmail.com</a></span>
-                 </p>
-
-         </div>
-
-         <div class="columns download">
-            <p>
-               <a href="cv/cv-pawel-stanecki.pdf" class="button"><i class="fa fa-download" download></i>Pobierz CV</a>
-            </p>
-         </div>
-
-      </div> <!-- end row -->
-
-   </div> <!-- end .main-col -->
-
-</div>
-
-</section> <!-- About Section End-->
-
+<?php get_template_part( 'sections/section', 'about' );	?>
 
 <!-- Resume Section
 ================================================== -->
 <section id="resume">
 
-<!-- Education
------------------------------------------------ -->
-<div class="row education">
+   <!-- Education
+   ----------------------------------------------- -->
+   <?php get_template_part( 'sections/section', 'education' );	?>
 
-   <div class="three columns header-col">
-      <h1><span>Wykształcenie</span></h1>
-   </div>
+   <!-- Work
+   ----------------------------------------------- -->
+   <?php get_template_part( 'sections/section', 'work' );	?>
 
-   <div class="nine columns main-col">
-
-      <div class="row item">
-
-         <div class="twelve columns">
-            <div class="info_wrapper">
-              <h3>Uniwersytet Ekonomiczny we Wrocławiu</h3>
-              <p class="info">Data: 10/2016 - 05/2017</p>
-              <p class="info">Kierunek: Informatyka</p>
-              <p class="info">Specjalizacja: Informatyka w biznesie</p>
-            </div>
-
-         </div>
-
-      </div> <!-- item end -->
-
-      <div class="row item">
-
-        <div class="twelve columns">
-           <div class="info_wrapper">
-             <h3>Politechnika Wrocławska</h3>
-             <p class="info">Data: 10/2013 - 03/2016</p>
-             <p class="info">Kierunek: Telekomunikacja</p>
-             <p class="info">Specjalizacja: Telekomunikacja mobilna</p>
-           </div>
-
-        </div>
-
-      </div> <!-- item end -->
-
-   </div> <!-- main-col end -->
-
-</div> <!-- End Education -->
-
-
-<!-- Work
------------------------------------------------ -->
-<div class="row work">
-
-   <div class="three columns header-col">
-      <h1><span>Doświadczenie</span></h1>
-   </div>
-
-   <div class="nine columns main-col">
-
-      <div class="row item">
-
-         <div class="twelve columns">
-
-            <h3>Proformat</h3>
-            <p class="info">Front End Developer <span>&bull;</span> <em class="date">05/2017 - obecnie</em></p>
-
-            <p>
-              Wykonywanie stron oraz sklepów internetowych. Po otrzymaniu projektu graficznego w formacie PSD jestem odpowiedzialny za wdrożenie projektu od początku do końca tj. od podzielenia go w programie Photoshop przez zaprogramowanie go po wdrożenie na serwer produkcyjny. Wykorzystuję takie technologie jak: JavaScript, JQuery, PHP, HTML, CSS/LESS.
-            </p>
-
-         </div>
-
-      </div> <!-- item end -->
-
-      <div class="row item">
-
-         <div class="twelve columns">
-
-            <h3>Volvo Polska Sp. z o.o.</h3>
-            <p class="info">Administrator Oprogramowania <span>&bull;</span> <em class="date">10/2016 - 05/2017</em></p>
-
-            <p>
-              Wyszukiwanie błędów w aplikacji dostarczanej dla użytkownika przez firmę Volvo. Tworzenie dokumentacji do wykonanych czynności.
-            </p>
-
-         </div>
-
-      </div> <!-- item end -->
-
-      <div class="row item">
-
-         <div class="twelve columns">
-
-            <h3>Volvo Polska Sp. z o.o.</h3>
-            <p class="info">Application Support <span>&bull;</span> <em class="date">07/2016 - 10/2016</em></p>
-
-            <p>
-                Wyszukiwanie błędów w aplikacji dostarczanej dla użytkownika przez firmę Volvo. Tworzenie dokumentacji do wykonanych czynności.
-            </p>
-
-         </div>
-
-      </div> <!-- item end -->
-
-      <div class="row item">
-
-         <div class="twelve columns">
-
-            <h3>Hemmersbach Central Support Spółka z o.o. Sp. k.</h3>
-            <p class="info">Kontroler Jakości <span>&bull;</span> <em class="date">07/2015 - 10/2015</em></p>
-
-            <p>
-              Kontrola poprawnego zainstalowania oprogramowania na laptopach oraz tabletach przeznaczonych do sprzedaży.
-            </p>
-
-         </div>
-
-      </div> <!-- item end -->
-
-   </div> <!-- main-col end -->
-
-</div> <!-- End Work -->
-
-<!-- Skills
------------------------------------------------ -->
-<div class="row skill">
-
-   <div class="three columns header-col">
-      <h1><span>Umiejętności</span></h1>
-   </div>
-
-   <div class="nine columns main-col">
-
-      <p>Zapraszam do zapoznania się z moimi umiejętnościami.
-      </p>
-
-          <div class="bars">
-
-             <ul class="skills">
-                 <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-                  <li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-                  <li><span class="bar-expand css"></span><em>CSS/LESS</em></li>
-                  <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                <li><span class="bar-expand js-bar"></span><em>JavaScript</em></li>
-                <li><span class="bar-expand bootstrap"></span><em>Bootstrap</em></li>
-                <li><span class="bar-expand git"></span><em>GIT</em></li>
-                <li><span class="bar-expand react"></span><em>ReactJS</em></li>
-                <li><span class="bar-expand redux"></span><em>Redux</em></li>
-                <li><span class="bar-expand php"></span><em>PHP</em></li>
-              </ul>
-
-          </div><!-- end skill-bars -->
-
-      </div> <!-- main-col end -->
-
-</div> <!-- End skills -->
+   <!-- Skills
+   ----------------------------------------------- -->
+   <?php get_template_part( 'sections/section', 'skills' );	?>
 
 </section> <!-- Resume Section End-->
 
