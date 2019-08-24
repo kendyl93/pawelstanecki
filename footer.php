@@ -9,7 +9,9 @@
 ?>
 
 <footer>
-	<div>footer</div>
+	<ul class="copyright">
+	   <li>&copy; Copyright 2018 Paweł Stanecki</li>
+    </ul>
 </footer>
 
 <?php wp_footer(); ?>

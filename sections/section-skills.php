@@ -13,7 +13,7 @@
                     while ( have_rows('skills_group') ) : the_row(); ?>
                         <div class="bars">
                             <ul class="skills">
-                                <li><progress value="22" max="100"><em><?php the_sub_field('skill_name'); ?></em></progress></li>
+                                <li><em><?php the_sub_field('skill_name'); ?></em><progress value="22" max="100"></progress></li>
                             </ul>
                         </div><!-- end skill-bars -->
                     <?php endwhile;
