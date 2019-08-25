@@ -14,6 +14,13 @@
 get_header(); ?>
 
 <div class="container margintop main-content">
-		<h1>Something</h1>
+		<?php while ( have_posts() ) : the_post(); ?>
+
+		<a href="<?php the_permalink(); ?>" >
+			<?php the_excerpt(); ?>
+		</a>
+
+<?php 
+endwhile; ?>
 	</div>
 <?php get_footer(); ?>
