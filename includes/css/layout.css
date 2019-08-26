@@ -1291,3 +1291,16 @@ footer ul {
   margin-top: 24px;
   text-align: center;
 }
+
+#nav li.blog-link-wrapper {
+  height: auto;
+  margin: 0 7px;
+}
+
+#nav li > a.blog-link {
+  border: solid 2px;
+  padding: 6px;
+  line-height: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}

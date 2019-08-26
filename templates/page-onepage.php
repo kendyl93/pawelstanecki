@@ -11,6 +11,22 @@ Template Name: Onepage
    ================================================== -->
 <header id="home">
 
+<nav id="nav-wrap">
+
+	<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+	<ul id="nav" class="nav">
+      <li class="current"><a class="smoothscroll" href="#home">Start</a></li>
+      <li><a class="smoothscroll" href="#about">About me</a></li>
+      <li><a class="smoothscroll" href="#resume">CV</a></li>
+      <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+      <li><a class="smoothscroll" href="#contact">Contact</a></li>
+      <li class="blog-link-wrapper"><a class="blog-link" href="https://dev.to/dashboard">Blog</a></li>
+	</ul> <!-- end #nav -->
+
+</nav> <!-- end #nav-wrap -->
+
 <?php get_template_part( 'sections/section', 'banner' );	?>
 
 <p class="scrolldown">

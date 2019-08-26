@@ -192,6 +192,14 @@
     border: none;
   }
 
+  #nav li > a.blog-link {
+    display: inline-block;
+  }
+
+  #nav li.blog-link-wrapper {
+    margin: 0;
+  }
+
   /* Header Styles
    -------------------------------------------------------------------- */
   header .banner {
