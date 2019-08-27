@@ -46,10 +46,9 @@
 
   /* About Section
    ------------------------------------------------------------------- */
-  #about .profile-pic {
-    width: 114px;
-    height: 114px;
-    margin-left: 12px;
+  #about .profile-pic img {
+    width: auto;
+    max-height: 250px;
   }
   #about .contact-details {
     width: 50%;
@@ -407,7 +406,11 @@
     line-height: 54px;
   }
 }
-
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  #nav-wrap ul#nav {
+    min-width: 250px;
+  }
+}
 /* mobile narrow
   -------------------------------------------------------------------------- */
 

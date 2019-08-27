@@ -22,7 +22,7 @@ Template Name: Onepage
       <li><a class="smoothscroll" href="#resume">CV</a></li>
       <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
       <li><a class="smoothscroll" href="#contact">Contact</a></li>
-      <li class="blog-link-wrapper"><a class="blog-link" href="https://dev.to/dashboard">Blog</a></li>
+      <li class="blog-link-wrapper"><a class="blog-link" href="https://dev.to/dashboard" target="_blank">Blog</a></li>
 	</ul> <!-- end #nav -->
 
 </nav> <!-- end #nav-wrap -->
@@ -56,6 +56,10 @@ Template Name: Onepage
    <!-- Skills
    ----------------------------------------------- -->
    <?php get_template_part( 'sections/section', 'skills' );	?>
+
+      <!-- Languages
+   ----------------------------------------------- -->
+   <?php get_template_part( 'sections/section', 'languages' );	?>
 
 </section> <!-- Resume Section End-->
 

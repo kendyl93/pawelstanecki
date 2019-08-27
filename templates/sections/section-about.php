@@ -8,7 +8,7 @@
 
         <div class="nine columns main-col">
             <h2><?php the_field('media_object_title_text'); ?></h2>
-            <p><?php the_field('media_object_text'); ?></p>
+            <?php the_field('media_object_text'); ?>
 
             <div class="row">
                 <div class="columns contact-details">
