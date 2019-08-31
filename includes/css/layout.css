@@ -702,6 +702,8 @@ ul#nav li.current a {
 }
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
+  height: 120px;
+  border: solid 2px;
 }
 .portfolio-item .portfolio-item-meta {
   padding: 18px;
@@ -1200,10 +1202,14 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-  color: #303030;
+  color: gray;
   font-size: 14px;
   text-align: center;
   position: relative;
+}
+
+#contact h3 {
+  color: gray;
 }
 
 #contact a,
@@ -1351,4 +1357,8 @@ p.skill-group-name {
   margin-right: 8px;
   border: solid 1px;
   max-width: 48px;
+}
+
+.popup-modal .scale-with-grid.object-fit-cover {
+  border-bottom: solid 1px #111;
 }

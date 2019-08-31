@@ -411,6 +411,17 @@
     min-width: 250px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  #contact .social-links li {
+    margin-left: 12px;
+  }
+
+  .logo img {
+    padding: 0 32px;
+  }
+}
+
 /* mobile narrow
   -------------------------------------------------------------------------- */
 
